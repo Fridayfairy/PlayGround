@@ -1,8 +1,19 @@
+# 忽略模型权重
+*.pth
+# macOS metadata
+.DS_Store
+._*
+# 可选：
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
-
+weights/
+data/
 # C extensions
 *.so
 
